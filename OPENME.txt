@@ -1,0 +1,59 @@
+Camera_Left_cvRectifyRotate.Parameters=[ 0.999905 -0.00101712 0.0137798 0.000645868 0.999637 0.0269191 -0.0138022 -0.0269076 0.999543 ]
+Camera_Left_cvRectifyProject.Parameters=[ 844.615 0 353.782 0 0 844.615 304.131 0 0 0 1 0 ]
+Camera_Left_cvRectifyReProject.Parameters=[ 1 0 0 -353.782 0 1 0 -304.131 0 0 0 844.615 0 0 -0.676687 -56.5552 ]
+Camera_Left_cvMatrix.Parameters=[ 793.138 0 366.202 0 848.212 325.726 0 0 1 ]
+
+
+  /* cout << "left camera matrix" << endl;
+  for(int i=0;i<3;i++){
+    for(int j=0;j<3;j++){
+      cout << cvmGet(l.getCvCameraMatrix(),i,j) << ", ";
+    }
+    cout << endl;
+  }
+  cout << "right camera matrix " << endl;
+  for(int i=0;i<3;i++){
+    for(int j=0;j<3;j++){
+      cout << cvmGet(r.getCvCameraMatrix(),i,j) << ", ";
+    }
+    cout << endl;
+  }
+  cout << "right project" << endl;
+  for(int i=0;i<3;i++){
+    for(int j=0;j<4;j++){
+      cout << cvmGet(r.getCvRectifyProject(),i,j) << ", ";
+    }
+    cout << endl;
+  }
+  cout << "left project " << endl;
+  for(int i=0;i<3;i++){
+    for(int j=0;j<4;j++){
+      cout << cvmGet(l.getCvRectifyProject(),i,j) << ", ";
+    }
+    cout << endl;
+  }
+  cout << "left rotate" << endl;
+  for(int i=0;i<3;i++){
+    for(int j=0;j<3;j++){
+      cout << cvmGet(l.getCvRectifyRotate(),i,j) << ", ";
+    }
+    cout << endl;
+  }
+  cout << "right rotate" << endl;
+  for(int i=0;i<3;i++){
+    for(int j=0;j<3;j++){
+      cout << cvmGet(r.getCvRectifyRotate(),i,j) << ", ";
+    }
+    cout << endl;
+  }
+  
+  cout<< "distortion left" << endl;
+  for(int i=0;i<8;i++){
+    cout << cvmGet(l.getCvDistortion(),i,0);
+  }
+  cout << endl;
+  cout<<"distortion right" << endl;
+  for(int i=0;i<8;i++){
+    cout << cvmGet(r.getCvDistortion(),i,0);
+  }
+  cout << endl;*/
